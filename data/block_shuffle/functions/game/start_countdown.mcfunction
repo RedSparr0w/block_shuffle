@@ -6,10 +6,10 @@ title @a title {"text":" "}
 scoreboard players remove #countdown bs.start 1
 
 #> Rerun this function
-execute if score #countdown bs.start matches 0.. run schedule function block_shuffle:generic/start_countdown 1s
+execute if score #countdown bs.start matches 0.. run schedule function block_shuffle:game/start_countdown 1s
 
 #> Start the game
-function block_shuffle:game/start
+execute if score #countdown bs.start matches -1 run function block_shuffle:game/start
 
 #> Reset the countdown score
 execute if score #countdown bs.start matches -1 run scoreboard players reset #countdown bs.start

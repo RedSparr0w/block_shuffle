@@ -1,6 +1,7 @@
 #> Create scoreboards for player info
 ##> Player score
 scoreboard objectives add bs.blocks_found dummy
+scoreboard objectives modify bs.blocks_found displayname {"text":"Blocks Found","color":"gold"}
 ##> Player current block
 scoreboard objectives add bs.current_block dummy
 ##> General use

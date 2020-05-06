@@ -28,3 +28,5 @@ execute if score @s bs.blocks_found matches 26 run scoreboard players operation 
 execute if score @s bs.blocks_found matches 27 run scoreboard players operation @s bs.current_block = #block_28 bs.dummy
 execute if score @s bs.blocks_found matches 28 run scoreboard players operation @s bs.current_block = #block_29 bs.dummy
 execute if score @s bs.blocks_found matches 29 run scoreboard players operation @s bs.current_block = #block_30 bs.dummy
+
+function block_shuffle:game/tell_player_block

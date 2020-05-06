@@ -9,7 +9,7 @@ scoreboard players remove #countdown bs.start 1
 execute if score #countdown bs.start matches 0.. run schedule function block_shuffle:generic/start_countdown 1s
 
 #> Start the game
-execute if score #game_mode bs.settings matches 0 run function block_shuffle:game_mode/points/start
+function block_shuffle:game/start
 
 #> Reset the countdown score
 execute if score #countdown bs.start matches -1 run scoreboard players reset #countdown bs.start

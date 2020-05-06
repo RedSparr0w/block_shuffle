@@ -12,6 +12,9 @@ execute if score #game_mode bs.settings matches 0 if score #point_limit bs.setti
 execute if score #game_mode bs.settings matches 0 if score #point_limit bs.settings matches 20 run tellraw @s [{"text":"Point limit: ","hoverEvent":{"action":"show_text","value":{"text":"How many points you need to win"}}},{"text":"[20]","color":"aqua","clickEvent":{"action":"run_command","value":"/function block_shuffle:settings/point_limit"},"hoverEvent":{"action":"show_text","value":{"text":"Toggle setting"}}}]
 execute if score #game_mode bs.settings matches 0 if score #point_limit bs.settings matches 30 run tellraw @s [{"text":"Point limit: ","hoverEvent":{"action":"show_text","value":{"text":"How many points you need to win"}}},{"text":"[30]","color":"aqua","clickEvent":{"action":"run_command","value":"/function block_shuffle:settings/point_limit"},"hoverEvent":{"action":"show_text","value":{"text":"Toggle setting"}}}]
 
+execute if score #block_type bs.settings matches 0 run tellraw @s [{"text":"Block type: ","hoverEvent":{"action":"show_text","value":{"text":"Block type"}}},{"text":"[Shared]","color":"aqua","clickEvent":{"action":"run_command","value":"/function block_shuffle:settings/block_type"},"hoverEvent":{"action":"show_text","value":{"text":"Each player will get the same set of blocks to find"}}}]
+execute if score #block_type bs.settings matches 1 run tellraw @s [{"text":"Block type: ","hoverEvent":{"action":"show_text","value":{"text":"Block type"}}},{"text":"[Individual]","color":"aqua","clickEvent":{"action":"run_command","value":"/function block_shuffle:settings/block_type"},"hoverEvent":{"action":"show_text","value":{"text":"Each player will get a randomised set of blocks to find"}}}]
+
 tellraw @s [" "]
 
 tellraw @s [{"text":"must be server op to change these","color":"gray","italic":true}]

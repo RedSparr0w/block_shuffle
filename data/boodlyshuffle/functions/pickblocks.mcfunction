@@ -1,0 +1,10 @@
+execute store result score $init block1 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block2 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block3 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block4 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block5 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block6 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block7 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block8 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block9 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable
+execute store result score $init block10 run loot spawn ~ -2 ~ loot boodlyshuffle:randomtable

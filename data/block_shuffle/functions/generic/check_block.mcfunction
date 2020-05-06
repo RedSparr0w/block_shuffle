@@ -200,6 +200,7 @@ execute if score @s bs.current_block matches 198 run execute at @s if block ~ ~-
 execute if score @s bs.current_block matches 199 run execute at @s if block ~ ~-1 ~ minecraft:black_bed run tag @s add found
 execute if score @s bs.current_block matches 200 run execute at @s if block ~ ~-1 ~ minecraft:nether_quartz_ore run tag @s add found
 
+#> Run directly in their respective files?
 execute if entity @s[tag=found] at @s run playsound minecraft:block.beacon.activate player @a ~ ~ ~
 execute if entity @s[tag=found] run scoreboard players add @s bs.blocks_found 1
 #> TODO: Check against settings limit, run functions based on game type
@@ -212,4 +213,4 @@ execute if entity @s[tag=found,tag=winner] run function block_shuffle:triggers/e
 execute if entity @s[tag=found] run tag @s remove found
 
 #> Rerun this function every 10 ticks if the game is still going
-execute if score game_running bs.dummy matches 1 run schedule function block_shuffle:generic/check_block 10t
+execute if score #game_running bs.dummy matches 1 run schedule function block_shuffle:generic/check_block 10t

@@ -203,12 +203,9 @@ execute if score @s bs.current_block matches 200 run execute at @s if block ~ ~-
 #> Run directly in their respective files?
 execute if entity @s[tag=found] at @s run playsound minecraft:block.beacon.activate player @a ~ ~ ~
 execute if entity @s[tag=found] run scoreboard players add @s bs.blocks_found 1
-#> TODO: Check against settings limit, run functions based on game type
-execute if entity @s[tag=found] if score @s bs.blocks_found matches 10 run tag @s add winner
 execute if entity @s[tag=found] run tellraw @a {"text":"","color":"gold","bold":true,"extra":[{"selector":"@s"},{"text":" found their block!"}]}
-execute if entity @s[tag=found,tag=!winner] run function block_shuffle:shared_block/get_next_block
-#> Game over
-execute if entity @s[tag=found,tag=winner] run function block_shuffle:triggers/end
+#> Run specific game modes block found function
+execute if score #game_mode bs.settings matches 0 run function block_shuffle:game_mode/points/found
 #> Remove the tag
 execute if entity @s[tag=found] run tag @s remove found
 

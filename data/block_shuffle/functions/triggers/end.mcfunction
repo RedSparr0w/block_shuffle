@@ -9,3 +9,6 @@ scoreboard players set #game_running bs.dummy 0
 
 #> Debug - remove
 execute if score #debug bs.settings matches 1.. run tell RedSparr0vv Game Over!
+
+#> Show the menu
+function block_shuffle:triggers/menu

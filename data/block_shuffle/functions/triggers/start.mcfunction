@@ -9,3 +9,6 @@ execute if score #game_running bs.dummy matches 1 run tellraw @s ["Game already 
 
 #> Toggle the game to be running
 scoreboard players set #game_running bs.dummy 1
+
+#> Show the updated menu
+function block_shuffle:triggers/menu

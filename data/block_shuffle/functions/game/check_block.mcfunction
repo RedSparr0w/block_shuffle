@@ -87,6 +87,7 @@ execute as @a if score @s bs.current_block matches 85 run execute at @s if block
 execute as @a if score @s bs.current_block matches 86 run execute at @s if block ~ ~-1 ~ minecraft:coarse_dirt run tag @s add found
 execute as @a if score @s bs.current_block matches 87 run execute at @s if block ~ ~-1 ~ minecraft:grass_block run tag @s add found
 execute as @a if score @s bs.current_block matches 88 run execute at @s if block ~ ~-1 ~ minecraft:grass_path run tag @s add found
+execute as @a if score @s bs.current_block matches 88 run execute at @s if block ~ ~ ~ minecraft:grass_path run tag @s add found
 execute as @a if score @s bs.current_block matches 89 run execute at @s if block ~ ~-1 ~ minecraft:stone run tag @s add found
 execute as @a if score @s bs.current_block matches 90 run execute at @s if block ~ ~-1 ~ minecraft:iron_ore run tag @s add found
 execute as @a if score @s bs.current_block matches 91 run execute at @s if block ~ ~-1 ~ minecraft:coal_ore run tag @s add found
@@ -110,16 +111,21 @@ execute as @a if score @s bs.current_block matches 108 run execute at @s if bloc
 execute as @a if score @s bs.current_block matches 109 run execute at @s if block ~ ~-1 ~ minecraft:crafting_table run tag @s add found
 execute as @a if score @s bs.current_block matches 110 run execute at @s if block ~ ~-1 ~ minecraft:furnace run tag @s add found
 execute as @a if score @s bs.current_block matches 111 run execute at @s if block ~ ~-1 ~ minecraft:composter run tag @s add found
+execute as @a if score @s bs.current_block matches 111 run execute at @s if block ~ ~ ~ minecraft:composter run tag @s add found
 execute as @a if score @s bs.current_block matches 112 run execute at @s if block ~ ~-1 ~ minecraft:chest run tag @s add found
+execute as @a if score @s bs.current_block matches 112 run execute at @s if block ~ ~ ~ minecraft:chest run tag @s add found
 execute as @a if score @s bs.current_block matches 113 run execute at @s if block ~ ~-1 ~ minecraft:barrel run tag @s add found
 execute as @a if score @s bs.current_block matches 114 run execute at @s if block ~ ~-1 ~ minecraft:bell run tag @s add found
 execute as @a if score @s bs.current_block matches 115 run execute at @s if block ~ ~-1 ~ minecraft:snow_block run tag @s add found
 execute as @a if score @s bs.current_block matches 116 run execute at @s if block ~ ~-1 ~ minecraft:ice run tag @s add found
 execute as @a if score @s bs.current_block matches 117 run execute at @s if block ~ ~-1 ~ minecraft:obsidian run tag @s add found
 execute as @a if score @s bs.current_block matches 118 run execute at @s if block ~ ~-1 ~ minecraft:water run tag @s add found
+execute as @a if score @s bs.current_block matches 118 run execute at @s if block ~ ~ ~ minecraft:water run tag @s add found
 execute as @a if score @s bs.current_block matches 119 run execute at @s if block ~ ~-1 ~ minecraft:white_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 119 run execute at @s if block ~ ~ ~ minecraft:white_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 120 run execute at @s if block ~ ~-1 ~ minecraft:iron_block run tag @s add found
 execute as @a if score @s bs.current_block matches 121 run execute at @s if block ~ ~-1 ~ minecraft:anvil run tag @s add found
+execute as @a if score @s bs.current_block matches 121 run execute at @s if block ~ ~ ~ minecraft:anvil run tag @s add found
 execute as @a if score @s bs.current_block matches 122 run execute at @s if block ~ ~-1 ~ minecraft:diamond_ore run tag @s add found
 execute as @a if score @s bs.current_block matches 123 run execute at @s if block ~ ~-1 ~ minecraft:lapis_ore run tag @s add found
 execute as @a if score @s bs.current_block matches 124 run execute at @s if block ~ ~-1 ~ minecraft:redstone_ore run tag @s add found
@@ -129,6 +135,7 @@ execute as @a if score @s bs.current_block matches 127 run execute at @s if bloc
 execute as @a if score @s bs.current_block matches 128 run execute at @s if block ~ ~-1 ~ minecraft:jack_o_lantern run tag @s add found
 execute as @a if score @s bs.current_block matches 129 run execute at @s if block ~ ~-1 ~ minecraft:melon run tag @s add found
 execute as @a if score @s bs.current_block matches 130 run execute at @s if block ~ ~-1 ~ minecraft:cauldron run tag @s add found
+execute as @a if score @s bs.current_block matches 130 run execute at @s if block ~ ~ ~ minecraft:cauldron run tag @s add found
 execute as @a if score @s bs.current_block matches 131 run execute at @s if block ~ ~-1 ~ minecraft:dropper run tag @s add found
 execute as @a if score @s bs.current_block matches 132 run execute at @s if block ~ ~-1 ~ minecraft:dispenser run tag @s add found
 execute as @a if score @s bs.current_block matches 133 run execute at @s if block ~ ~-1 ~ minecraft:cartography_table run tag @s add found
@@ -136,16 +143,19 @@ execute as @a if score @s bs.current_block matches 134 run execute at @s if bloc
 execute as @a if score @s bs.current_block matches 135 run execute at @s if block ~ ~-1 ~ minecraft:smithing_table run tag @s add found
 execute as @a if score @s bs.current_block matches 136 run execute at @s if block ~ ~-1 ~ minecraft:bee_nest run tag @s add found
 execute as @a if score @s bs.current_block matches 137 run execute at @s if block ~ ~-1 ~ minecraft:campfire run tag @s add found
+execute as @a if score @s bs.current_block matches 137 run execute at @s if block ~ ~ ~ minecraft:campfire run tag @s add found
 execute as @a if score @s bs.current_block matches 138 run execute at @s if block ~ ~-1 ~ minecraft:blast_furnace run tag @s add found
 execute as @a if score @s bs.current_block matches 139 run execute at @s if block ~ ~-1 ~ minecraft:smoker run tag @s add found
 execute as @a if score @s bs.current_block matches 140 run execute at @s if block ~ ~-1 ~ minecraft:grindstone run tag @s add found
 execute as @a if score @s bs.current_block matches 141 run execute at @s if block ~ ~-1 ~ minecraft:bookshelf run tag @s add found
 execute as @a if score @s bs.current_block matches 142 run execute at @s if block ~ ~-1 ~ minecraft:trapped_chest run tag @s add found
+execute as @a if score @s bs.current_block matches 142 run execute at @s if block ~ ~ ~ minecraft:trapped_chest run tag @s add found
 execute as @a if score @s bs.current_block matches 143 run execute at @s if block ~ ~-1 ~ minecraft:note_block run tag @s add found
 execute as @a if score @s bs.current_block matches 144 run execute at @s if block ~ ~-1 ~ minecraft:redstone_lamp run tag @s add found
 execute as @a if score @s bs.current_block matches 145 run execute at @s if block ~ ~-1 ~ minecraft:observer run tag @s add found
 execute as @a if score @s bs.current_block matches 146 run execute at @s if block ~ ~-1 ~ minecraft:piston run tag @s add found
 execute as @a if score @s bs.current_block matches 147 run execute at @s if block ~ ~-1 ~ minecraft:hopper run tag @s add found
+execute as @a if score @s bs.current_block matches 147 run execute at @s if block ~ ~ ~ minecraft:hopper run tag @s add found
 execute as @a if score @s bs.current_block matches 148 run execute at @s if block ~ ~-1 ~ minecraft:loom run tag @s add found
 execute as @a if score @s bs.current_block matches 149 run execute at @s if block ~ ~-1 ~ minecraft:tnt run tag @s add found
 execute as @a if score @s bs.current_block matches 150 run execute at @s if block ~ ~-1 ~ minecraft:white_concrete_powder run tag @s add found
@@ -182,31 +192,41 @@ execute as @a if score @s bs.current_block matches 180 run execute at @s if bloc
 execute as @a if score @s bs.current_block matches 181 run execute at @s if block ~ ~-1 ~ minecraft:nether_bricks run tag @s add found
 execute as @a if score @s bs.current_block matches 182 run execute at @s if block ~ ~-1 ~ minecraft:netherrack run tag @s add found
 execute as @a if score @s bs.current_block matches 183 run execute at @s if block ~ ~-1 ~ minecraft:soul_sand run tag @s add found
+execute as @a if score @s bs.current_block matches 183 run execute at @s if block ~ ~ ~ minecraft:soul_sand run tag @s add found
 execute as @a if score @s bs.current_block matches 184 run execute at @s if block ~ ~-1 ~ minecraft:bedrock run tag @s add found
 execute as @a if score @s bs.current_block matches 185 run execute at @s if block ~ ~-1 ~ minecraft:magma_block run tag @s add found
 execute as @a if score @s bs.current_block matches 186 run execute at @s if block ~ ~-1 ~ minecraft:orange_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 186 run execute at @s if block ~ ~ ~ minecraft:orange_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 187 run execute at @s if block ~ ~-1 ~ minecraft:magenta_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 187 run execute at @s if block ~ ~ ~ minecraft:magenta_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 188 run execute at @s if block ~ ~-1 ~ minecraft:light_blue_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 188 run execute at @s if block ~ ~ ~ minecraft:light_blue_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 189 run execute at @s if block ~ ~-1 ~ minecraft:yellow_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 189 run execute at @s if block ~ ~ ~ minecraft:yellow_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 190 run execute at @s if block ~ ~-1 ~ minecraft:lime_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 190 run execute at @s if block ~ ~ ~ minecraft:lime_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 191 run execute at @s if block ~ ~-1 ~ minecraft:pink_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 191 run execute at @s if block ~ ~ ~ minecraft:pink_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 192 run execute at @s if block ~ ~-1 ~ minecraft:gray_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 192 run execute at @s if block ~ ~ ~ minecraft:gray_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 193 run execute at @s if block ~ ~-1 ~ minecraft:light_gray_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 193 run execute at @s if block ~ ~ ~ minecraft:light_gray_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 194 run execute at @s if block ~ ~-1 ~ minecraft:cyan_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 194 run execute at @s if block ~ ~ ~ minecraft:cyan_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 195 run execute at @s if block ~ ~-1 ~ minecraft:purple_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 195 run execute at @s if block ~ ~ ~ minecraft:purple_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 196 run execute at @s if block ~ ~-1 ~ minecraft:blue_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 196 run execute at @s if block ~ ~ ~ minecraft:blue_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 197 run execute at @s if block ~ ~-1 ~ minecraft:green_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 197 run execute at @s if block ~ ~ ~ minecraft:green_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 198 run execute at @s if block ~ ~-1 ~ minecraft:red_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 198 run execute at @s if block ~ ~ ~ minecraft:red_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 199 run execute at @s if block ~ ~-1 ~ minecraft:black_bed run tag @s add found
+execute as @a if score @s bs.current_block matches 199 run execute at @s if block ~ ~ ~ minecraft:black_bed run tag @s add found
 execute as @a if score @s bs.current_block matches 200 run execute at @s if block ~ ~-1 ~ minecraft:nether_quartz_ore run tag @s add found
 
 #> Run directly in their respective files?
-execute as @a[tag=found] at @s run playsound minecraft:block.beacon.activate player @a ~ ~ ~
-execute as @a[tag=found] run scoreboard players add @s bs.blocks_found 1
-execute as @a[tag=found] run tellraw @a {"text":"","color":"gold","bold":true,"extra":[{"selector":"@s"},{"text":" found their block!"}]}
 execute as @a[tag=found] run function block_shuffle:game/found_block
-#> Remove the tag
-execute as @a[tag=found] run tag @s remove found
 
 #> Rerun this function every 10 ticks if the game is still going
 execute if score #game_running bs.dummy matches 1 run schedule function block_shuffle:game/check_block 10t

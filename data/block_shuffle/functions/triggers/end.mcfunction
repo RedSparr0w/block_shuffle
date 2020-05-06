@@ -1,6 +1,7 @@
 #> Reset the scoreboard so this isn't run multiple times
 scoreboard players set @s bs.end 0
 
+title @a times 20 100 20
 execute at @a[tag=winner] run title @a title {"text":"","color":"gold","extra":[{"selector":"@p[tag=winner]"},{"text":" Wins!"}]}
 tag @a[tag=winner] remove winner
 

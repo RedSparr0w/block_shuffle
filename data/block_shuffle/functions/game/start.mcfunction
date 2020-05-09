@@ -13,6 +13,7 @@ function block_shuffle:game/generate_blocks
 
 #> Set players blocks
 execute as @a run function block_shuffle:game/get_next_block
+function block_shuffle:game/tell_player_block
 
 #> Check block the player is standing on
 execute run function block_shuffle:game/check_block

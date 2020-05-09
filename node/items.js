@@ -747,7 +747,7 @@ const blocks = [
 // Translate
 let outArr = []
 blocks.forEach((block,i)=>{
-    outArr.push(`execute if score @s bs.current_block matches ${i+1} run tellraw @s [{"color":"aqua","text":"Stand on "},{"translate":"block.minecraft.${block.replace('minecraft:','')}", "color":"aqua"}]`);
+    outArr.push(`execute if score @s bs.current_block matches ${i+1} run tellraw @s [{"color":"aqua","text":"Find and stand on: "},{"translate":"block.minecraft.${block.replace('minecraft:','')}", "color":"aqua"}]`);
 })
 const tellPlayer = outArr.join('\n');
 

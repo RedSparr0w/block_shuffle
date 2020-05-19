@@ -11,9 +11,9 @@ All blocks are enabled.
 Some blocks require being placed on a wall instead of the floor, try multiple ways or jumping if it is not working for you.
 
 ## Future Updates:
-Nether, end and other hard to obtain blocks will be optionally enabled.
-Time limit gamemode instead of point limit.
-Optionally different blocks per player.
+- Nether, end and other hard to obtain blocks will be optionally enabled.
+- Time limit gamemode instead of point limit.
+- Optionally different blocks per player.
 
 ## Usage:
 
